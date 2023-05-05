@@ -9,14 +9,16 @@
     <link href="css/aos.css" rel="stylesheet">
     <link href="css/font.css" rel="stylesheet">
     <style>
-        .bg-primaryy{
-            color: rgba(#4514D1, #094DCB, #544DF2, alpha);
-        }
         .bg-image-shadow{
             background-color: rgba(33, 33, 33, 0.75);
             min-height: 500px;
         }
-       
+        .text {
+            text-transform: uppercase;
+            background: linear-gradient(to right,  #4514D1, #094DCB, #544DF2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
     </style>
 </head>
 <body>
@@ -68,10 +70,12 @@
         </div>
       </nav>
     <div style="background-image: url(img/1ea280fb320c0b0e6ea8f2ba2a8a8655.jpg);">
-        <div class="bg-image-shadow">
+        <div class="bg-image-shadow ">
             <div class="container text-center">
-                <div class="display-1 fw-bold pt-5 bg-primaryy ">
-                    MARKETING <br> SOLUTIONS AGENCY
+                <div class="display-1 fw-bold pt-5 t ">
+                   <div class="text ">
+                         MARKETING <br> SOLUTIONS AGENCY
+                   </div>
                 </div>
                 <div class="pt-3 h-1 text-white px-5 mx-5">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident sapiente numquam odit magni doloribus quidem.
@@ -84,7 +88,7 @@
     </div>
     <div class="bg-black ">
         <div class="container text-center py-5">
-            <div class="row g-3 text-white">
+            <div class="row g-3 text-white cols-sm-6">
               <div class="col-4 ">
                 <div class="p-5 bg-dark ">
                     <div class="text-primary">
@@ -123,7 +127,7 @@
                         <i class="bi bi-rocket h3"></i>
                     </div>
                     <div class="fw-bold h4 pt-3">
-                        Branding
+                        Branding <br>
                     </div>
                     <div>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, velit.
@@ -179,6 +183,7 @@
                         <div class="h3 pt-2">
                             <i class="bi bi-arrow-right-circle"></i>
                         </div>
+                        <div class="z-n1 position-absolute p-5 bg-primary"><span></span></div>
                     </div>
                 </div>
             </div>
